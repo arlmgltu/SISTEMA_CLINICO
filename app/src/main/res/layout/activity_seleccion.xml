@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="MENU"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/lab4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:layout_marginBottom="10dp"
+            android:text="_______________________________________________"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="lanzarAreaGeneral">
+            <ImageView
+                android:id="@+id/logo_Equipo"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="logo del tipo"
+                android:src="@drawable/acerca"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#006400"
+                android:text="AREAS" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:layout_marginBottom="10dp"
+            android:text="_______________________________________________"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="lanzarEspecialistaPrincipal">
+            <ImageView
+                android:id="@+id/logo_especialista"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="logo del tipo"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/user1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#006400"
+                android:text="ESPECIALISTAS" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:layout_marginBottom="10dp"
+            android:text="_______________________________________________"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="lanzarListaAnalisis">
+            <ImageView
+                android:id="@+id/logo_medico"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="logo del tipo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/cheack" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#006400"
+                android:text="LISTA DE ANALISIS" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:layout_marginBottom="10dp"
+            android:text="_______________________________________________"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="lanzarCostoAnalisis">
+            <ImageView
+                android:id="@+id/logo_especialista1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:contentDescription="logo del tipo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/dinero_imagen" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#006400"
+                android:text="PRECIOS DE ANALISIS" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:layout_marginBottom="10dp"
+            android:text="_______________________________________________"/>
+
+        …
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="fotografía"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

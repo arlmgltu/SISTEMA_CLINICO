@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="INICIAR SESION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="#BABABA">
+
+            <TextView
+                android:id="@+id/equipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="INICIAR COMO ADMINISTRADOR"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="logo del tipo"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="5dp"
+                android:src="@android:drawable/ic_menu_myplaces" />
+            <EditText
+                android:id="@+id/txt_usuario"
+                android:layout_width="201dp"
+                android:layout_height="45dp"
+                android:ems="9"
+                android:background="#F5F5F5"
+                android:focusable="true"
+                android:hint="Usuario"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="logo del tipo"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:src="@android:drawable/ic_lock_lock" />
+
+            <EditText
+                android:layout_width="201dp"
+                android:layout_height="45dp"
+                android:id="@+id/txt_pass"
+                android:ems="8"
+                android:inputType="textPassword"
+                android:focusable="true"
+                android:background="#F5F5F5"
+                android:hint="Contraseña"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_IngresarSistemaA"
+            android:layout_width="260dp"
+            android:layout_height="46dp"
+            android:text="Ingresar"
+            android:textColor="#6B8E23"
+            android:background="#9ACD32"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="46dp"
+                android:text="Volver"
+                android:textColor="#0000CD"
+                android:background="#87CEFA"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:onClick="volver"/>
+            <Button
+                android:layout_width="158dp"
+                android:layout_height="46dp"
+                android:text="Crear Cuenta"
+                android:background="#1874CD"
+                android:textColor="#FFFFFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:onClick="registrarse"/>
+        </LinearLayout>
+        …
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="fotografía"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

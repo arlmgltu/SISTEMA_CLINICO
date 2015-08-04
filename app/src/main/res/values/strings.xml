@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ANALISIS_CLINICO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seleccion">Seleccion</string>
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_equipo_principal">EquipoPrincipal</string>
+    <string name="title_activity_seleccion__login">Seleccion_Login</string>
+    <string name="title_activity_especialista_principal">EspecialistaPrincipal</string>
+
+    <string name="title_activity_reactivos_principal">ReactivosPrincipal</string>
+    <string name="title_activity_lista__analisis">Lista_Analisis</string>
+    <string name="title_activity_materiales_principal">MaterialesPrincipal</string>
+    <string name="title_activity_resultado_principal">ResultadoPrincipal</string>
+    <string name="title_activity_registrarse">Registrarse</string>
+    <string name="title_activity_empleado_principal">EmpleadoPrincipal</string>
+
+
+    <string name="title_activity_area_general_layout">AreaGeneralLayout</string>
+    <string name="title_activity_cliente_dao">ClienteDAO</string>
+    <string name="title_activity_cliente_mandar">ClienteMandar</string>
+    <string name="title_activity_cliente_principal">ClientePrincipal</string>
+    <string name="title_activity_costo__analisis">Costo_Analisis</string>
+    <string name="title_activity_dbhelper">DBHelper</string>
+    <string name="title_activity_reactivos_dao">DBHelper</string>
+
+    <string name="title_activity_inicio">DBHelper</string>
+
+    <string name="title_activity_reactivos_mandar">DBHelper</string>
+
+
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.configurar.sistema_clinico" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Inicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AreaGeneralLayout"
+            android:label="@string/title_activity_area_general_layout" >
+        </activity>
+
+
+        <activity
+            android:name=".ClientePrincipal"
+            android:label="@string/title_activity_cliente_principal" >
+        </activity>
+        <activity
+            android:name=".Costo_Analisis"
+            android:label="@string/title_activity_costo__analisis" >
+        </activity>
+
+
+        <activity
+            android:name=".EmpleadoPrincipal"
+            android:label="@string/title_activity_empleado_principal" >
+        </activity>
+
+        <activity
+            android:name=".EquipoPrincipal"
+            android:label="@string/title_activity_equipo_principal" >
+        </activity>
+        <activity
+            android:name=".EspecialistaPrincipal"
+            android:label="@string/title_activity_especialista_principal" >
+        </activity>
+
+        <activity
+            android:name=".Informacion"
+            android:label="@string/title_activity_informacion" >
+        </activity>
+
+        <activity
+            android:name=".Lista_Analisis"
+            android:label="@string/title_activity_lista__analisis" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+
+        <activity
+            android:name=".MaterialesPrincipal"
+            android:label="@string/title_activity_materiales_principal" >
+        </activity>
+        <activity
+            android:name=".ReactivosDAO"
+            android:label="@string/title_activity_reactivos_dao" >
+        </activity>
+        <activity
+            android:name=".ReactivosMandar"
+            android:label="@string/title_activity_reactivos_mandar" >
+        </activity>
+        <activity
+            android:name=".ReactivosPrincipal"
+            android:label="@string/title_activity_reactivos_principal" >
+        </activity>
+        <activity
+            android:name=".Registrarse"
+            android:label="@string/title_activity_registrarse" >
+        </activity>
+        <activity
+            android:name=".ResultadoPrincipal"
+            android:label="@string/title_activity_resultado_principal" >
+        </activity>
+
+        <activity
+            android:name=".Seleccion"
+            android:label="@string/title_activity_seleccion" >
+        </activity>
+        <activity
+            android:name=".Seleccion_Login"
+            android:label="@string/title_activity_seleccion__login" >
+        </activity>
+   
+    </application>
+
+</manifest>
