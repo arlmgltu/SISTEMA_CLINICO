@@ -13,7 +13,7 @@ public class UsuarioDAO {
     private SQLiteDatabase db,db2;
 
     public UsuarioDAO(Context context) {
-        helper = new DBHelper(context,"analisis_clinico_bd", null, 1);
+        helper = new DBHelper(context,"analisis_clinico_bd.db", null, 1);
         // db= helper.getWritableDatabase();
     }
     public void open()throws SQLException {
